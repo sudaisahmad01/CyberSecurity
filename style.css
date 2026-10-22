@@ -1,0 +1,268 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background:linear-gradient(black,white);
+}
+
+header {
+  background-color: white;
+  color: #161515;
+  padding: 20px 15px;
+  text-align: center;
+  cursor:pointer;
+  transition:all 0.5s;
+  
+}
+
+header:hover{
+  transform:none;
+  background-color: gold;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+nav {
+  background-color: black;
+  border-radius: 8px;
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+nav ul li a {
+  display: inline-block;
+  color: rgb(96, 95, 95);
+  text-decoration: none;
+  padding: 15px 20px;
+  font-weight: bold;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  background-color:   white;
+  display: block;
+  border-radius: 8px;
+}
+
+.indexmain {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 25px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: all 0.3s;
+}
+.indexmain:hover{
+  background-color: gold;
+
+}
+
+
+
+.futuremain {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 25px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: all 0.3s;
+}
+.futuremain:hover{
+  background-color: green;
+
+}
+
+
+.protectionmain {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 25px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: all 0.3s;
+}
+.protectionmain:hover{
+  background-color: blue;
+
+}
+
+
+.threatmain {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 25px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: all 0.3s;
+}
+.threatmain:hover{
+  background-color: blue;
+
+}
+
+
+.contactmain {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 25px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: all 0.3s;
+}
+.contactmain:hover{
+  background-color: blue;
+
+}
+
+
+
+
+h2 {
+  color: white;
+  margin-bottom: 15px;
+  border-bottom: 3px solid #090909;
+  padding-bottom: 8px;
+}
+
+h3 {
+  color: black;
+  margin-top: 20px 0 10px;
+}
+
+p {
+  margin-bottom: 15px;
+  padding: 5px;
+}
+
+ul {
+  margin: 10px 0 20px 25px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.card {
+  background-color: #eef4fb;
+  
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th, td {
+  border: 1px solid #c7d3e3;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #09090a;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f0f5fb;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #b7c4d6;
+  border-radius: 4px;
+}
+
+form button {
+  margin-top: 15px;
+  background-color: #0b2545;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+form button:hover {
+  background-color: gold;
+}
+
+footer {
+  background:linear-gradient(black,white);
+  color: white;
+  text-align: center;
+  padding: 18px;
+  margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+
+
+
+
+  .indexmain {
+    margin: 15px;
+    padding: 18px;
+  }
+
+  .contactmain {
+    margin: 15px;
+    padding: 18px;
+  }
+  .threatmain {
+    margin: 15px;
+    padding: 18px;
+  }
+
+
+
+  
+  .protectionmain {
+    margin: 15px;
+    padding: 18px;
+  }
+
+  
+  .futuremain {
+    margin: 15px;
+    padding: 18px;
+  }
+}
+
+
+
